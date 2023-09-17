@@ -1,0 +1,43 @@
+<div class="w-full px-10 py-5">
+
+	<div class="w-full mx-auto" style="max-width: 800px;">
+
+		<h1 class="font-semibold text-2xl display-block mb-4 w-full pb-4 border-b border-gray-300 text-gray-800">Commits History</h1>
+
+
+		<ol class="relative border-l border-gray-200 dark:border-gray-700">
+			<ng-container *ngFor="let j of [1,1,1]">
+				<li class="mb-10 ml-6">
+					<span
+						class="absolute flex items-center justify-center w-6 h-6 bg-green-100 rounded-full -left-3 ring-8 ring-white">
+						<img src="./assets/icons/check.svg" class="mt-0.5 w-4">
+					</span>
+					<h3 class="flex items-center mb-1 text-base font-medium text-gray-700 dark:text-white">February 15
+						<span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded ml-3">Latest</span>
+					</h3>
+
+					<div class="w-full mt-3 rounded-lg overflow-hidden border border-solid border-gray-300 divide-y divide-gray-300">
+
+						<ng-container *ngFor="let i of [1,1,1]">
+
+							<div class="px-3 py-2 hover:bg-gray-100 flex items-center flex-nowrap">
+
+								<img src="https://randomuser.me/api/portraits/men/24.jpg" class="mr-2 rounded-full w-7 h-7">
+
+								<div>
+									<h4 class="text-sm text-gray-800 font-medium">Cambios realizados</h4>
+									<p class="text-xs text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur commodi necessitatibus eum, illo officia dolorum!</p>
+								</div>
+
+							</div>
+
+						</ng-container>
+
+					</div>
+
+				</li>
+			</ng-container>
+		</ol>
+	</div>
+
+</div>
